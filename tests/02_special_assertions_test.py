@@ -1,6 +1,6 @@
 import pytest
 
-
+# Zero division error will fail if NOT divided by zero
 def test_div_zero_exception():
     """
     pytest.raises can assert that exceptions are raised (catching them)
